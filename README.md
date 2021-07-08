@@ -1,4 +1,4 @@
-# BibliaWRok
+# Biblia w rok
 Aplikacja zawiera program czytania Biblii na 330 dni.
 
 Wykorzystana jest tutaj baza danych, dzięki której zapisywany jest postęp w czytaniu.

@@ -1,0 +1,2 @@
+rootProject.name = "Biblia wrok"
+include ':app'

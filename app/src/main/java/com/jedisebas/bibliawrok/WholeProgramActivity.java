@@ -712,62 +712,62 @@ public class WholeProgramActivity extends AppCompatActivity {
                 break;
             case R.id.imageButton62:
                 intent = new Intent(WholeProgramActivity.this, DayActivity.class);
-                DayActivity.makeStr("Rz 1-4", "62", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/1/1");
+                DayActivity.makeStr("Rdz 1-4", "62", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/1/1");
                 startActivity(intent);
                 break;
             case R.id.imageButton63:
                 intent = new Intent(WholeProgramActivity.this, DayActivity.class);
-                DayActivity.makeStr("Rz 5-8", "63", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/5/1");
+                DayActivity.makeStr("Rdz 5-8", "63", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/5/1");
                 startActivity(intent);
                 break;
             case R.id.imageButton64:
                 intent = new Intent(WholeProgramActivity.this, DayActivity.class);
-                DayActivity.makeStr("Rz 9-12", "64", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/9/1");
+                DayActivity.makeStr("Rdz 9-12", "64", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/9/1");
                 startActivity(intent);
                 break;
             case R.id.imageButton65:
                 intent = new Intent(WholeProgramActivity.this, DayActivity.class);
-                DayActivity.makeStr("Rz 13-16", "65", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/13/1");
+                DayActivity.makeStr("Rdz 13-16", "65", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/13/1");
                 startActivity(intent);
                 break;
             case R.id.imageButton66:
                 intent = new Intent(WholeProgramActivity.this, DayActivity.class);
-                DayActivity.makeStr("Rz 17-20", "66", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/17/1");
+                DayActivity.makeStr("Rdz 17-20", "66", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/17/1");
                 startActivity(intent);
                 break;
             case R.id.imageButton67:
                 intent = new Intent(WholeProgramActivity.this, DayActivity.class);
-                DayActivity.makeStr("Rz 21-24", "67", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/21/1");
+                DayActivity.makeStr("Rdz 21-24", "67", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/21/1");
                 startActivity(intent);
                 break;
             case R.id.imageButton68:
                 intent = new Intent(WholeProgramActivity.this, DayActivity.class);
-                DayActivity.makeStr("Rz 25-28", "68", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/25/1");
+                DayActivity.makeStr("Rdz 25-28", "68", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/25/1");
                 startActivity(intent);
                 break;
             case R.id.imageButton69:
                 intent = new Intent(WholeProgramActivity.this, DayActivity.class);
-                DayActivity.makeStr("Rz 29-32", "69", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/29/1");
+                DayActivity.makeStr("Rdz 29-32", "69", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/29/1");
                 startActivity(intent);
                 break;
             case R.id.imageButton70:
                 intent = new Intent(WholeProgramActivity.this, DayActivity.class);
-                DayActivity.makeStr("Rz 33-36", "70", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/33/1");
+                DayActivity.makeStr("Rdz 33-36", "70", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/33/1");
                 startActivity(intent);
                 break;
             case R.id.imageButton71:
                 intent = new Intent(WholeProgramActivity.this, DayActivity.class);
-                DayActivity.makeStr("Rz 37-40", "71", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/37/1");
+                DayActivity.makeStr("Rdz 37-40", "71", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/37/1");
                 startActivity(intent);
                 break;
             case R.id.imageButton72:
                 intent = new Intent(WholeProgramActivity.this, DayActivity.class);
-                DayActivity.makeStr("Rz 41-45", "72", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/41/1");
+                DayActivity.makeStr("Rdz 41-45", "72", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/41/1");
                 startActivity(intent);
                 break;
             case R.id.imageButton73:
                 intent = new Intent(WholeProgramActivity.this, DayActivity.class);
-                DayActivity.makeStr("Rz 46-50", "73", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/46/1");
+                DayActivity.makeStr("Rdz 46-50", "73", "http://biblia-online.pl/Biblia/Tysiaclecia/Ksiega-Rodzaju/46/1");
                 startActivity(intent);
                 break;
             case R.id.imageButton74:

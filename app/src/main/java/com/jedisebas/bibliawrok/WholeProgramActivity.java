@@ -1,7 +1,6 @@
 package com.jedisebas.bibliawrok;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.loader.content.AsyncTaskLoader;
 import androidx.room.Room;
 
 import android.content.Intent;
@@ -12,43 +11,8 @@ import android.view.View;
 import android.widget.Button;
 
 public class WholeProgramActivity extends AppCompatActivity {
-//
-//    Button img1, img2, img3, img4, img5, img6, img7, img8, img9, img10,
-//            img11, img12, img13, img14, img15, img16, img17, img18, img19, img20,
-//            img21, img22, img23, img24, img25, img26, img27, img28, img29, img30,
-//            img31, img32, img33, img34, img35, img36, img37, img38, img39, img40,
-//            img41, img42, img43, img44, img45, img46, img47, img48, img49, img50,
-//            img51, img52, img53, img54, img55, img56, img57, img58, img59, img60,
-//            img61, img62, img63, img64, img65, img66, img67, img68, img69, img70,
-//            img71, img72, img73, img74, img75, img76, img77, img78, img79, img80,
-//            img81, img82, img83, img84, img85, img86, img87, img88, img89, img90,
-//            img91, img92, img93, img94, img95, img96, img97, img98, img99, img100,
-//            img101, img102, img103, img104, img105, img106, img107, img108, img109, img110,
-//            img111, img112, img113, img114, img115, img116, img117, img118, img119, img120,
-//            img121, img122, img123, img124, img125, img126, img127, img128, img129, img130,
-//            img131, img132, img133, img134, img135, img136, img137, img138, img139, img140,
-//            img141, img142, img143, img144, img145, img146, img147, img148, img149, img150,
-//            img151, img152, img153, img154, img155, img156, img157, img158, img159, img160,
-//            img161, img162, img163, img164, img165, img166, img167, img168, img169, img170,
-//            img171, img172, img173, img174, img175, img176, img177, img178, img179, img180,
-//            img181, img182, img183, img184, img185, img186, img187, img188, img189, img190,
-//            img191, img192, img193, img194, img195, img196, img197, img198, img199, img200,
-//            img201, img202, img203, img204, img205, img206, img207, img208, img209, img210,
-//            img211, img212, img213, img214, img215, img216, img217, img218, img219, img220,
-//            img221, img222, img223, img224, img225, img226, img227, img228, img229, img230,
-//            img231, img232, img233, img234, img235, img236, img237, img238, img239, img240,
-//            img241, img242, img243, img244, img245, img246, img247, img248, img249, img250,
-//            img251, img252, img253, img254, img255, img256, img257, img258, img259, img260,
-//            img261, img262, img263, img264, img265, img266, img267, img268, img269, img270,
-//            img271, img272, img273, img274, img275, img276, img277, img278, img279, img280,
-//            img281, img282, img283, img284, img285, img286, img287, img288, img289, img290,
-//            img291, img292, img293, img294, img295, img296, img297, img298, img299, img300,
-//            img301, img302, img303, img304, img305, img306, img307, img308, img309, img310,
-//            img311, img312, img313, img314, img315, img316, img317, img318, img319, img320,
-//            img321, img322, img323, img324, img325, img326, img327, img328, img329, img330;
 
     Button[] tab = new Button[331];
-    String[] grs = new String[331];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -707,7 +671,7 @@ public class WholeProgramActivity extends AppCompatActivity {
                 break;
             case R.id.imageButton61:
                 intent = new Intent(WholeProgramActivity.this, DayActivity.class);
-                DayActivity.makeStr("2 J, 3 J, Jud", "60", "http://biblia-online.pl/Biblia/Tysiaclecia/2-List-Jana/1/1");
+                DayActivity.makeStr("2 J, 3 J, Jud", "61", "http://biblia-online.pl/Biblia/Tysiaclecia/2-List-Jana/1/1");
                 startActivity(intent);
                 break;
             case R.id.imageButton62:

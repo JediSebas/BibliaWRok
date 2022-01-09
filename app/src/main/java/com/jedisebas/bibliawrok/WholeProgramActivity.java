@@ -3,9 +3,9 @@ package com.jedisebas.bibliawrok;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -357,15 +357,16 @@ public class WholeProgramActivity extends AppCompatActivity {
 
         GreenDao greenDao = db.greenDao();
 
-        AsyncTask.execute(() -> {for (int i=1; i<=330; i++) {
+        new Thread(() -> {for (int i=1; i<=330; i++) {
             String isGreen = greenDao.getIsGreen(i);
             if ((!isGreen.isEmpty()) && isGreen.equals("true")) {
                 tab[i].setBackgroundColor(Color.rgb(0, 255, 0));
+                tab[i].setTextColor(Color.rgb(0,0,0));
             }
-        }});
-
+        }}).start();
     }
 
+    @SuppressLint("NonConstantResourceId")
     public void click(View view) {
         Intent intent;
         switch (view.getId()) {

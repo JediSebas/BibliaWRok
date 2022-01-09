@@ -2,7 +2,6 @@ package com.jedisebas.bibliawrok;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.AsyncTask;
 import android.os.Bundle;
 
 import com.google.android.material.appbar.CollapsingToolbarLayout;
@@ -19,14 +18,13 @@ import com.jedisebas.bibliawrok.databinding.ActivityScrollingBinding;
 
 public class ScrollingActivity extends AppCompatActivity {
 
-    private ActivityScrollingBinding binding;
     SharedPreferences sharedPreferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = ActivityScrollingBinding.inflate(getLayoutInflater());
+        com.jedisebas.bibliawrok.databinding.ActivityScrollingBinding binding = ActivityScrollingBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         Toolbar toolbar = binding.toolbar;
@@ -41,15 +39,15 @@ public class ScrollingActivity extends AppCompatActivity {
             GreenDataBase db = Room.databaseBuilder(getApplicationContext(),
                     GreenDataBase.class, "database").build();
             GreenDao greenDao = db.greenDao();
-        AsyncTask.execute(() -> {for (int i=1; i<=330; i++) {
+        new Thread(() -> {for (int i=1; i<=330; i++) {
             GreenEntity gr = new GreenEntity();
             gr.id = i;
             gr.isGreen = "false";
             greenDao.insertGreenEntities(gr);
         }
         SharedPreferences.Editor editor =sharedPreferences.edit();
-        editor.putString("key", "true").commit();
-        });
+        editor.putString("key", "true").apply();
+        }).start();
         }
     }
 
@@ -76,11 +74,9 @@ public class ScrollingActivity extends AppCompatActivity {
 
     public void begin(View view) {
         Intent intent;
-        switch (view.getId()) {
-            case R.id.button:
-                intent = new Intent(ScrollingActivity.this, WholeProgramActivity.class);
-                startActivity(intent);
-                break;
+        if (view.getId() == R.id.button) {
+            intent = new Intent(ScrollingActivity.this, WholeProgramActivity.class);
+            startActivity(intent);
         }
     }
 }
